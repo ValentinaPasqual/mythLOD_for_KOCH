@@ -1,0 +1,91 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix myth: <https://w3id.org/mythlod/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+myth:assertion2149 {
+    myth:expr2149 ecrm:P67_refers_to myth:eros,
+            myth:gli-dei .
+}
+
+myth:assertion3997 {
+    myth:expr2149 ecrm:P67_refers_to myth:gli-dei,
+            myth:pan .
+}
+
+myth:factual_data_bag {
+    myth:cre2149 a efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created myth:expr2149 ;
+        efrbroo:R18_created myth:2149 .
+
+    myth:cre246 a efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created myth:expr246 ;
+        efrbroo:R18_created myth:246 .
+
+    myth:cre3997 a efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created myth:expr3997 ;
+        efrbroo:R18_created myth:3997 .
+
+    myth:cre854 a efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created myth:expr854 ;
+        efrbroo:R18_created myth:854 .
+
+    myth:cre942 a efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created myth:expr942 ;
+        efrbroo:R18_created myth:942 .
+
+    myth:enea-nella-penisola-italica a ecrm:E1_CRM_Entity .
+
+    myth:eros a ecrm:E1_CRM_Entity .
+
+    myth:flora a ecrm:E1_CRM_Entity .
+
+    myth:gli-dei a ecrm:E1_CRM_Entity .
+
+    myth:miti-di-fondazione a ecrm:E1_CRM_Entity .
+
+    myth:pan a ecrm:E1_CRM_Entity .
+
+    myth:prometeo a ecrm:E1_CRM_Entity .
+
+    myth:2149 a efrbroo:F4_Manifestation_Singleton ;
+        dct:title "Amore divino e profano"^^xsd:String .
+
+    myth:246 a efrbroo:F4_Manifestation_Singleton ;
+        dct:title "Lo sbarco di Enea in Italia"^^xsd:String .
+
+    myth:3997 a efrbroo:F4_Manifestation_Singleton ;
+        dct:title "Pan e Siringa"^^xsd:String .
+
+    myth:854 a efrbroo:F4_Manifestation_Singleton ;
+        dct:title "Prometeo"^^xsd:String .
+
+    myth:942 a efrbroo:F4_Manifestation_Singleton ;
+        dct:title "Flora in giardino"^^xsd:String .
+
+    myth:expr2149 a efrbroo:F2_Expression .
+
+    myth:expr246 a efrbroo:F2_Expression .
+
+    myth:expr3997 a efrbroo:F2_Expression .
+
+    myth:expr854 a efrbroo:F2_Expression .
+
+    myth:expr942 a efrbroo:F2_Expression .
+}
+
+myth:assertion854 {
+    myth:expr2149 ecrm:P67_refers_to myth:miti-di-fondazione,
+            myth:prometeo .
+}
+
+myth:assertion246 {
+    myth:expr2149 ecrm:P67_refers_to myth:enea-nella-penisola-italica .
+}
+
+myth:assertion942 {
+    myth:expr2149 ecrm:P67_refers_to myth:flora,
+            myth:gli-dei .
+}
+
