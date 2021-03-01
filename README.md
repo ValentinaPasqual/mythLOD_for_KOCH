@@ -2,7 +2,7 @@
 
 The repository contains the materials for mythLOD presentation and exercise at KOCH course. 
 
-The presentation at this link: [10.6084/m9.figshare.14135390](10.6084/m9.figshare.14135390)
+The presentation at this link: [http://dx.doi.org/10.6084/m9.figshare.14135390](http://dx.doi.org/10.6084/m9.figshare.14135390)
 
 Exercise materials:
 * input csv: <code>example.csv</code>
