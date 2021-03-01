@@ -10,6 +10,7 @@ Exercise materials:
 * output: <code>example_rdf_turtle.ttl</code> and <code>example_rdf_trig.trig</code> 
 
 If you want to try the code by yourself, you can download the <code>ipynb</code> and upload it in your Google Drive, then just open the file and run it from the top menu (Runtime section). 
+Remeber to change your local path for the output in the Google Colab file, all the rest can remain the same and it should work!
 
 
 
