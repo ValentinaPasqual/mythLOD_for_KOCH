@@ -1,0 +1,122 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix myth: <https://w3id.org/mythlod/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+myth:conceneide a efrbroo:F27_Work_Conception ;
+    ecrm:P14_carried_out_by myth:virgilio ;
+    efrbroo:R16_initiated myth:eneide .
+
+myth:concmetamorfosi a efrbroo:F27_Work_Conception ;
+    ecrm:P14_carried_out_by myth:ovidio ;
+    efrbroo:R16_initiated myth:metamorfosi .
+
+myth:concprometeoIncatenato a efrbroo:F27_Work_Conception ;
+    ecrm:P14_carried_out_by myth:eschilo ;
+    efrbroo:R16_initiated myth:prometeoIncatenato .
+
+myth:cre2149 a efrbroo:F28_Expression_Creation ;
+    ecrm:P14_carried_out_by myth:mandrazoYAgudoJosDe ;
+    efrbroo:R17_created myth:expr2149 ;
+    efrbroo:R18_created myth:manif2149 .
+
+myth:cre246 a efrbroo:F28_Expression_Creation ;
+    ecrm:P14_carried_out_by myth:masonJamesLorrainClaude ;
+    efrbroo:R17_created myth:expr246 ;
+    efrbroo:R18_created myth:manif246 .
+
+myth:cre3997 a efrbroo:F28_Expression_Creation ;
+    ecrm:P14_carried_out_by myth:boucherFranOis ;
+    efrbroo:R17_created myth:expr3997 ;
+    efrbroo:R18_created myth:manif3997 .
+
+myth:cre854 a efrbroo:F28_Expression_Creation ;
+    ecrm:P14_carried_out_by myth:simyanVictorEtienne ;
+    efrbroo:R17_created myth:expr854 ;
+    efrbroo:R18_created myth:manif854 .
+
+myth:cre942 a efrbroo:F28_Expression_Creation ;
+    ecrm:P14_carried_out_by myth:vanAvontPeeterEBrueghelJan ;
+    efrbroo:R17_created myth:expr942 ;
+    efrbroo:R18_created myth:manif942 .
+
+myth:Eros a ecrm:E1_CRM_Entity ;
+    rdfs:label "Eros"^^xsd:string .
+
+myth:boucherFranOis a efrbroo:F10_Person ;
+    rdfs:label "Boucher, François"^^xsd:string .
+
+myth:eneaNellaPenisolaItalica a ecrm:E1_CRM_Entity ;
+    rdfs:label "Enea nella Penisola Italica"^^xsd:string .
+
+myth:eneide a efrbroo:F1_Work .
+
+myth:eschilo a efrbroo:F10_Person .
+
+myth:expr2149 a efrbroo:F2_Expression ;
+    ecrm:P67_refers_to myth:Eros,
+        myth:GliDei .
+
+myth:expr246 a efrbroo:F2_Expression ;
+    ecrm:P67_refers_to myth:eneaNellaPenisolaItalica .
+
+myth:expr3997 a efrbroo:F2_Expression ;
+    ecrm:P67_refers_to myth:GliDei,
+        myth:pan .
+
+myth:expr854 a efrbroo:F2_Expression ;
+    ecrm:P67_refers_to myth:prometeoIncatenato .
+
+myth:expr942 a efrbroo:F2_Expression ;
+    ecrm:P67_refers_to myth:GliDei,
+        myth:flora .
+
+myth:flora a ecrm:E1_CRM_Entity ;
+    rdfs:label "Flora"^^xsd:string .
+
+myth:mandrazoYAgudoJosDe a efrbroo:F10_Person ;
+    rdfs:label "Mandrazo y Agudo, Josè de"^^xsd:string .
+
+myth:manif2149 a efrbroo:F4_Manifestation_Singleton ;
+    dct:title "Amore divino e profano"^^xsd:string .
+
+myth:manif246 a efrbroo:F4_Manifestation_Singleton ;
+    dct:title "Lo sbarco di Enea in Italia"^^xsd:string .
+
+myth:manif3997 a efrbroo:F4_Manifestation_Singleton ;
+    dct:title "Pan e Siringa"^^xsd:string .
+
+myth:manif854 a efrbroo:F4_Manifestation_Singleton ;
+    dct:title "Vaso raffigurante Prometeo"^^xsd:string .
+
+myth:manif942 a efrbroo:F4_Manifestation_Singleton ;
+    dct:title "Flora in giardino"^^xsd:string .
+
+myth:masonJamesLorrainClaude a efrbroo:F10_Person ;
+    rdfs:label "Mason, James Lorrain, Claude"^^xsd:string .
+
+myth:metamorfosi a efrbroo:F1_Work .
+
+myth:ovidio a efrbroo:F10_Person .
+
+myth:pan a ecrm:E1_CRM_Entity ;
+    rdfs:label "Pan"^^xsd:string .
+
+myth:simyanVictorEtienne a efrbroo:F10_Person ;
+    rdfs:label "Simyan, Victor Etienne"^^xsd:string .
+
+myth:vanAvontPeeterEBrueghelJan a efrbroo:F10_Person ;
+    rdfs:label "Van Avont, Peeter e Brueghel, Jan"^^xsd:string .
+
+myth:virgilio a efrbroo:F10_Person .
+
+myth:prometeoIncatenato a ecrm:E1_CRM_Entity,
+        efrbroo:F1_Work ;
+    rdfs:label "Prometeo incatenato"^^xsd:string .
+
+myth:GliDei a ecrm:E1_CRM_Entity ;
+    rdfs:label "Gli Dei"^^xsd:string,
+        "Gli Dèi"^^xsd:string .
+
