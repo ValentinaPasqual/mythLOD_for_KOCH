@@ -1,6 +1,6 @@
-item_id;item_title;item_categories;century;author;mythologiae_link
-246;Lo sbarco di Enea in Italia;Enea nella Penisola Italica;XVIII secolo;Mason, James Lorrain, Claude;https://mythologiae.unibo.it/index.php/2019/05/15/la-terra-di-enea-in-italia/
-854;Vaso raffigurante Prometeo;Prometeo incatenato;XIX secolo;Simyan, Victor Etienne;https://mythologiae.unibo.it/index.php/2019/06/20/vaso-prometeo/
-942;Flora in giardino;Flora, Gli Dèi;XVII secolo;Van Avont, Peeter e Brueghel, Jan;https://mythologiae.unibo.it/index.php/2019/06/12/flora-in-giardino/
-3997;Pan e Siringa;Pan, Gli Dei; XVIII secolo;Boucher, François;https://mythologiae.unibo.it/index.php/2017/07/06/pan-e-siringa-7/
-2149;Amore divino e profano; Eros, Gli Dèi;XIX secolo;Mandrazo y Agudo, Josè de;https://mythologiae.unibo.it/index.php/2019/05/09/amore-divino-e-profano/
+item_id;item_title;item_categories;century;author;classic_references;mythologiae_link
+246;Lo sbarco di Enea in Italia;Enea nella Penisola Italica;XVIII secolo;Mason, James Lorrain, Claude;Virgilio, Eneide;https://mythologiae.unibo.it/index.php/2019/05/15/la-terra-di-enea-in-italia/
+854;Vaso raffigurante Prometeo;Prometeo incatenato;XIX secolo;Simyan, Victor Etienne;Eschilo, Prometeo incatenato;https://mythologiae.unibo.it/index.php/2019/06/20/vaso-prometeo/
+942;Flora in giardino;Flora, Gli Dèi;XVII secolo;Van Avont, Peeter e Brueghel, Jan;;https://mythologiae.unibo.it/index.php/2019/06/12/flora-in-giardino/
+3997;Pan e Siringa;Pan, Gli Dei; XVIII secolo;Boucher, François;Ovidio, Metamorfosi;https://mythologiae.unibo.it/index.php/2017/07/06/pan-e-siringa-7/
+2149;Amore divino e profano; Eros, Gli Dèi;XIX secolo;Mandrazo y Agudo, Josè de;;https://mythologiae.unibo.it/index.php/2019/05/09/amore-divino-e-profano/
